@@ -1,4 +1,4 @@
-#Assignment-2, Game Tic-tac-toe
+# Game Tic-tac-toe
 
 #State: Tiles are numbered 1 to 9
 
@@ -436,11 +436,9 @@ def game3(n):
         print "Winning Probablity of Player2 : ", float(c2)/n
         print "Probability of Draw : ", float(d)/n
 
-st=time.time()
-#game1(1000)
+game1(1000)
 game2(5)
-#game3(5)
-print time.time()-st
+game3(5)
 
 
 
